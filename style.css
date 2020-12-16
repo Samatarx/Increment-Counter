@@ -61,9 +61,7 @@ body {
     
   .container {
     flex-direction: column;
-    height: 80vh;
-    margin: 0;
-    padding: 0;
+    height: 95vh;
   }
 
   .header {
