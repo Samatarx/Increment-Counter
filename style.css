@@ -61,6 +61,7 @@ body {
     
   .container {
     flex-direction: column;
+    height: 80vh;
   }
 
   .header {
@@ -69,7 +70,7 @@ body {
   }
 
   .header h1 {
-    font-size: 15px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
   }
@@ -84,10 +85,24 @@ body {
   }
 
   .counter {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .foot{
-    font-size: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: 100%;
+  }
+
+  .counter {
+    font-size: 40px;
+  }
+
+  .header h1 {
+    font-size: 15px;
   }
 }
