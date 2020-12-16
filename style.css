@@ -59,13 +59,16 @@ body {
 
 @media (max-width: 580px) {
     
+  body {
+    height: 100%;
+  }
+
   .container {
     flex-direction: column;
-    height: 95vh;
   }
 
   .header {
-    margin: 0;
+    margin: 25px;
     padding: 0;
   }
 
@@ -96,8 +99,16 @@ body {
 }
 
 @media (max-width: 320px) {
+  body {
+    height: 80%;
+  }
+  
+  .header {
+    margin: 0;
+  }
+
   .container {
-    height: 100%;
+    margin-bottom: 50px;
   }
 
   .counter {
